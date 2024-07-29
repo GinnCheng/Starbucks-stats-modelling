@@ -25,7 +25,7 @@ class bayes_engine:
         print(f'When negative, the probably that the result is false is {self.neg_nc}')
 
 if __name__ == '__main__':
-    case1 = bayes_engine(p_c=0.1, sensitivity=0.9, specitivity=0.5)
+    case1 = bayes_engine(p_c=0.01, sensitivity=0.9, specitivity=0.9)
     case1.calculate()
     case1.result()
 
